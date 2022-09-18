@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matatena</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="layer1" hidden>
+
+        <div id="tabPlayer1" class="tabP">
+
+            <div id="player1-1" class="columna">
+                <li class="celda"><img src="" alt="dado" style="display: none;"></li>
+                <li class="celda"><img src="" alt="dado" style="display: none;"></li>
+                <li class="celda"><img src="" alt="dado" style="display: none;"></li>
+                <h2>0</h2>
+            </div>
+            <div id="player1-2" class="columna">
+                <li class="celda"><img src="" alt="dado" style="display: none;"></li>
+                <li class="celda"><img src="" alt="dado" style="display: none;"></li>
+                <li class="celda"><img src="" alt="dado" style="display: none;"></li>
+                <h2>0</h2>
+            </div>
+            <div id="player1-3" class="columna">
+                <li class="celda"><img src="" alt="dado" style="display: none;"></li>
+                <li class="celda"><img src="" alt="dado" style="display: none;"></li>
+                <li class="celda"><img src="" alt="dado" style="display: none;"></li>
+                <h2>0</h2>
+            </div>
+
+            <div id="tarjetaP1" class="tarjeta">
+                <div class="visualizador">
+                    <img src="./imgs/1.png" alt="dado" class="dadoVisu">
+                </div>
+                <h2></h2>
+                <h4>0</h4>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="layer2" hidden>
+        <div id="tabPlayer2" class="tabP">
+            <div id="player2-1" class="columna">
+                <h2>0</h2>
+                <li class="celda"><img src="" alt="dado" style="display: none;"></li>
+                <li class="celda"><img src="" alt="dado" style="display: none;"></li>
+                <li class="celda"><img src="" alt="dado" style="display: none;"></li>
+            </div>
+            <div id="player2-2" class="columna">
+                <h2>0</h2>
+                <li class="celda"><img src="" alt="dado" style="display: none;"></li>
+                <li class="celda"><img src="" alt="dado" style="display: none;"></li>
+                <li class="celda"><img src="" alt="dado" style="display: none;"></li>
+            </div>
+            <div id="player2-3" class="columna">
+                <h2>0</h2>
+                <li class="celda"><img src="" alt="dado" style="display: none;"></li>
+                <li class="celda"><img src="" alt="dado" style="display: none;"></li>
+                <li class="celda"><img src="" alt="dado" style="display: none;"></li>
+            </div>
+
+            <div id="tarjetaP2" class="tarjeta">
+                <div class="visualizador">
+                    <img src="./imgs/1.png" alt="dado" class="dadoVisu">
+                </div>
+                <h2></h2>
+                <h4>0</h4>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="formulario">
+        <div class="wrapper">
+            <input type="text" required="required">
+            <span>Jugador 1</span>
+        </div>
+        <div class="wrapper">
+            <input type="text" required="required">
+            <span>Jugador 2</span>
+        </div>
+    
+        <button id="btnInicio">Inicar</button>
+    </div>
+    <div style="display: none;">
+        <h1>Empieza el jugador tal</h1>
+    </div>
+
+    <div id="modalEmpiezaX">
+        <h1></h1>
+    </div>
+    
+    <div id="reglas">
+        <h2>Reglas</h2>
+    </div>
+    
+    <script src="jugador.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
